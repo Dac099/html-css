@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <label for="hora">
+                <span>hora</span>
+                <input type="time" id='hora' name='hora'>
+            </label>
+            <label for="día">
+                <span>día</span>
+                <input type="date" id='día' name='día'>
+            </label>
+            <label for="semana">
+                <span>semana</span>
+                <input type="week" id='semana' name='semana'>
+            </label>
+            <label for="mes">
+                <span>Mes</span>
+                <input type="month" id='mes' name='mes'>
+            </label>
+            <input type="submit">
+            <!-- El valor "submit" del atributo es para enviar -->
+        </form>
+        <p>Podemos resumir estos formularios en uno solo: </p>
+        <form action="">
+            <label for="fecha">
+                <span>Fecha de salida: </span>
+                <input type="datetime-local" id='fecha' name='fecha'>
+            </label>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>

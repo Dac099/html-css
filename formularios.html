@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <main>
+        <!-- El mejor formulario es el que no existe -->
+        <!-- Tener un buen formulario va a reflejar una mejor experiencia para el usuario -->
+        <form action="">
+            <!-- Esta etiqueta contenedora es una buena practica semantica para el manejo de formularios -->
+            <!-- Esto le dice al navegador que le vamos a pedir datos al usuario -->
+            <!-- El atributo "action" es para manipularlo con JS -->
+            <label for="nombre">
+                <!-- Lo que contiene el atributo "for" de label tiene que contener lo mismo que el atributo "id" en input -->
+                <span>¿Cuál es tu nombre?</span>
+                <!-- El atributo "placeholder" sirve para poner un texto dentro de la etiqueta input -->
+                <input type="text" id='nombre' placeholder="Nombre">
+            </label>
+            <label for="inicio-platzi">
+                <span>¿Cuádo iniciaste en platzi?</span>
+                <input type="date" id='inicio-platzi'>
+            </label>
+            <label for="horario">
+                <span>¿Horario de estudio?</span>
+                <input type="time" id='horario'>
+            </label>
+        </form>
+    </main>
+</body>
+</html>
