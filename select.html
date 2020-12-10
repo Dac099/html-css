@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <main>
+        <span>Curso de preferencia: </span>
+        <select name="Cursos" id="">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML5">HTML5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Web Standards">Web Standards</option>
+        </select>  
+        <p><strong>Buenas practicas: </strong></p>    
+        <!-- El uso de la etiqueta input con datalist es la mejor manera de hacer un select en nuestro proyecto -->
+        <!-- Lo mejor de esta entrada es que se puede escribir sobre el espacio y al mismo tiempo te va generando opciones a escoger -->
+        <input list='cursos'>
+        <datalist id='cursos'>
+            <option value="Javascript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="Web standards"></option>
+        </datalist>
+    </main>
+</body>
+</html>
