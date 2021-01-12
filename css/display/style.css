@@ -1,0 +1,111 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    background-color: indianred;
+    position: relative;
+}
+body
+{
+    background-color: thistle;
+}
+.main-title
+{
+    display: inline;
+    color: white;
+}
+.main-nav
+{
+    display: inline;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: white;
+}
+.main-nav li
+{
+    display: inline-block;
+    list-style: none;   
+}
+.main-nav a
+{
+    color: white;
+    text-decoration: none;
+}
+.main-page
+{
+    position: relative;
+}
+.anuncios
+{   
+    display: inline-block;
+    width: calc(25% - 10px);
+}
+.contenido-principal
+{
+    display: inline-block;
+    width: calc(70% - 10px);
+    position: absolute;
+    margin: 10px 5px;
+    padding: 5px;
+    text-align: justify;
+}
+.anuncio1
+{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+}
+.anuncio2
+{
+    width: 300px;
+    height: 200px;
+    background-color: red;   
+    margin: 10px;
+}
+.anuncio3
+{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+}
+.anuncio4
+{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+}
+footer
+{
+    background-color: tomato;
+    position: relative;
+}
+.contact
+{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+footer .redes-sociales
+{
+    text-align: left;
+    display: inline;
+}
+footer ul
+{
+    display: inline-block;
+}
+footer li 
+{
+    display: inline-block;
+    color: white;
+}

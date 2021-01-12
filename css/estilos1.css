@@ -1,0 +1,15 @@
+/* Por etiqueta */
+p{
+    color: blueviolet;
+    font-size: 200%;
+}
+/* Por clase */
+.parrafo{
+    color: chartreuse;
+    font-size: 200%;
+}
+/* Por id */
+#texto{
+    color: darkblue;
+    font-size: 200%;
+}

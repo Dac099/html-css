@@ -1,0 +1,28 @@
+/* Combinacion adyacente - adjacent sibling */
+    /* h1 + p
+    {
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        width: 60px;
+        padding-left: 5px;
+    } */
+/* Combinacion de hermano general - general sibling */
+h1 ~ p
+{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 60px;
+    padding-left: 5px;
+}
+/* Combinacion de hijo descendiente */
+section > h1
+{
+    color: hotpink;
+}
+/* Combinacion de hijo descendiente */
+div ul li 
+{
+    color: palegreen;
+}
